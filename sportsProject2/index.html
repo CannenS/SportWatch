@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/70e6a440f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <header>
+      <div class="nav">
+        <div class="title">
+          <h1>Sports Watch</h1>
+        </div>
+        <div class="dropdown">
+          <button class="drop-btn">Menu</button>
+          <div class="dropdown-menu">
+            <a href="#" class="anchor"> Teams </a>
+            <a href="#" class="anchor"> Players </a>
+            <a href="#" class="anchor"> Coaches </a>
+            <a href="#" class="anchor"> Stats </a>
+            <a href="#" class="anchor"> Pricing </a>
+          </div>
+        </div>
+        <a href="index.html" class="home-btn">Home</a>
+      </div>
+    </header>
+    <!-- SEARCH -->
+    <section>
+      
+        <div class="search-box">
+          <form action="" class="basketball-form hidden">
+            <button class="basketball-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <input type="text" class="basketball-input" placeholder="Basketball...">
+          </form>
+          <form action="" class="football-form hidden">
+            <button class="football-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input type="text" class="football-input" placeholder="football...">
+          </form>
+            <form class="search-form">
+                <button class=search-btn><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" class="search-input" placeholder="Search For Athletes...">
+
+            </form>
+        </div>
+        <div class="btn-box">
+          <a href="#" class="btn-box-btn all-link">All</a>
+          <a href="#" class="btn-box-btn football-link">Football</a>
+          <a href="#" class="btn-box-btn basketball-link">Basketball</a>
+        </div>
+    </section>
+    <!-- RESULTS -->
+    <div class="results">
+        
+    </div>
+    <!-- js -->
+    <script src="./app.js"></script>
+  </body>
+</html>
